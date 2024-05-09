@@ -1,6 +1,16 @@
-.bordes {
-    border: 1px solid red;
+#navbarText{
+    justify-content: flex-end;
 }
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    text-decoration: none;
+    color: white;
+}
+
 .roboto-light {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -13,19 +23,62 @@
     font-style: normal;
 }
 
-/*
- #212529;
- #707070;
- #F8F9FA o var(--light);
- #fff o var(--white);
- #28a745 o var(--success);
-
-*/
-
-.barraNavegacion {
-    background-color: #28a745;
+.producto {
+    font-size: 20px;
+    color: black;
+    text-align: left;
 }
 
-.barra {
-    background-color: red;
+.lugar{
+    align-items: center;
+    justify-content: flex-start;
+}
+.empresa {
+    font-size: 16px;
+    color: #707070;
+    text-align: left;
+}
+
+.ubicacion{
+    font-size: 13px;
+    color: #707070;
+    text-align: left;
+}
+
+.precios {
+    align-items:center;
+    justify-content: flex-end;
+}
+.precioNormal {
+    font-size: 16px;
+    color: #707070;
+}
+.precioOferta {
+    font-size: 20px;
+    color: #198754;
+}
+
+#formularioMail{
+    padding-bottom: 1%;
+    background-color: #198754;
+}
+.formulario {
+    font-size: 21pt;
+    justify-content: center;
+}
+
+.divFooter{
+    justify-content: space-around;
+}
+.textoFooter{
+    font-size:16px;
+}
+
+.imgFooter{
+    height: 24px;
+    width: 82px;
+}
+.boton {
+    display: flex;
+    justify-content: center;
 }
